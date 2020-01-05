@@ -1,7 +1,7 @@
-# cks
-[c]ompile [k]ernal [s]tats -- Simple BASH script for some benchmarking based on kcbench
+## cks
+### [c]ompile [k]ernal [s]tats -- Simple BASH script for some benchmarking based on kcbench
 
-USAGE: cks $PATH2KERNEL
+USAGE: ´cks $PATH2KERNEL´
 
 The scripts wites compile times from 1 to cores * 2. Please change steps if needed. Here are my stats based on the following evoirement:
 
@@ -21,7 +21,7 @@ Kernel: 5.4.6 from Kernel.og
 
 
 Threads   Time in sec.
-=======================
+----------------------
 1         616.09
 2         313.93
 4         176.24

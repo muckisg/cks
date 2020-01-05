@@ -1,5 +1,5 @@
-## cks
-### [c]ompile [k]ernal [s]tats -- Simple BASH script for some benchmarking based on kcbench
+### cks -- [c]ompile [k]ernal [s]tats
+##### Simple BASH script for some benchmarking based on kcbench
 
 USAGE: cks $PATH2KERNEL
 

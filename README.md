@@ -23,3 +23,9 @@ The scripts wites compile times from 1 to cores * 2. Please change steps if need
 |16     |46.60
 |32     |30.46
 |64     |24.48
+
+
+##### Todo
+[ ] more CPUs results
+[ ] newer Kernel
+[ ] any sugetions?

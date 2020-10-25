@@ -26,6 +26,6 @@ The scripts wites compile times from 1 to cores * 2. Please change steps if need
 
 
 ##### Todo
-[ ] more CPUs results
-[ ] newer Kernel
-[ ] any sugetions?
+- [ ] more CPUs results
+- [ ] newer Kernel
+- [ ] any sugetions?

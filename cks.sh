@@ -1,5 +1,8 @@
 #!/bin/bash
-# 2020-10-26 works only with kcbench 0.5
+# 2020-10-26 Version 0.9 Maurice "Mucki" Kemmann
+# With kcbench 0.9 there are some changes to the original cks script:
+# -n parameter was repplaced by -i fot interations
+# The output chnged a bit, therefore the awk statement reads the 5th element instead of the 7th.
 
 MAX_THREADS=$(grep -c ^processor /proc/cpuinfo)
 JOBS=1
@@ -22,7 +25,7 @@ do
     echo "Path: ${KERNEL}"
     echo "Jobs: ${JOBS}"
     echo -n "$JOBS," >> results.temp
-    kcbench -s $KERNEL -j $JOBS -n 1 | grep ^Run | awk '{print $7}' \
+    kcbench -s $KERNEL -j $JOBS -i 1 | grep ^Run | awk '{print $5}' \
         |egrep -o '[0-9]*\.?[0-9]*' >> results.temp 
     JOBS=$(( $JOBS*2))
 done

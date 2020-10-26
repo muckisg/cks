@@ -1,4 +1,5 @@
 #!/bin/bash
+# 2020-10-26 works only with kcbench 0.5
 
 MAX_THREADS=$(grep -c ^processor /proc/cpuinfo)
 JOBS=1

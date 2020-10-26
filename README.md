@@ -1,6 +1,9 @@
 ### cks -- [c]ompile [k]ernal [s]tats
 ##### Simple BASH script for some benchmarking based on kcbench
 
+##### News 2020-10-26
+There is a new version ov kcbench which does not work with this script. This script wroks with version 0.5 of kcbench only. I am going to check the changes asap ...
+
 USAGE: cks $PATH2KERNEL
 
 The scripts wites compile times from 1 to cores * 2. Please change steps if needed. Here are my stats based on the following evoirement:
@@ -28,6 +31,7 @@ The scripts wites compile times from 1 to cores * 2. Please change steps if need
 ##### Todo
 
 - [x] start improvements
+- [ ] Prio: check new version of kcbench 0.9
 - [ ] different compiler
 - [ ] more CPUs results
 - [ ] newer Kernel

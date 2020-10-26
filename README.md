@@ -2,7 +2,7 @@
 ##### Simple BASH script for some benchmarking based on kcbench
 
 ##### News 2020-10-26
-There is a new version ov kcbench which does not work with this script. This script wroks with version 0.5 of kcbench only. I am going to check the changes asap ...
+There is a new version of kcbench which does not work with this script. This script works with version 0.5 or before of kcbench only. I am going to check the changes asap ...
 
 USAGE: cks $PATH2KERNEL
 

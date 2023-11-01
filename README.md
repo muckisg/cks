@@ -9,7 +9,7 @@ With a new version of kcbench (version 0.9) the script was updated today.
 - [x] start improvements
 - [x] Prio: check new version of kcbench 0.9
 - [ ] different compiler
-- [ ] more CPUs results
+- [x] more CPUs results
 - [x] newer Kernel
 - [ ] any sugetions?
 
@@ -59,3 +59,21 @@ Some stats with newer kernel, gcc and kcbench
 |32     |33.76
 |64     |29.30
 
+### 2023-11-01 New results ###
+Some stats with another CPU and newer kernel, gcc and kcbench
+
+- CPU: AMD Ryzen 7 5700G (8 cores, 16 threads)
+- RAM: 64 GB DDR4-3200
+- Storage: PCI4 NVE SSD 1 TB
+- OS: Fedora Linux 39 beta
+- Compiler: gcc (GCC) 13.2.1 20230918
+- kcbench Version 0.9.7
+- Kernel: 6.6 from Kernel.org
+
+|Threads|Time in sec.|
+|-------|------------|
+|1      |994.70
+|2      |517.79
+|4      |276.83
+|8      |157.33
+|16     |130.71

@@ -26,7 +26,7 @@ do
     echo "Jobs: ${JOBS}"
     echo -n "$JOBS," >> results.temp
     kcbench -s $KERNEL -j $JOBS -i 1 | grep ^Run | awk '{print $5}' \
-        |egrep -o '[0-9]*\.?[0-9]*' >> results.temp 
+        |egrep -E -o '[0-9]*\.?[0-9]*' >> results.temp 
     JOBS=$(( $JOBS*2))
 done
 
